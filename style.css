@@ -42,3 +42,25 @@ html {
         background: var(--blue);
     }
 }
+
+/* Body Content Configuration */
+
+body {
+    background: var(--black);
+    overflow: hidden;
+}
+
+/* Header Content Configuration */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 9%;
+}
