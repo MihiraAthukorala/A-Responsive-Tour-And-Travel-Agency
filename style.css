@@ -18,7 +18,7 @@
     --blue: #29d9d5;
     --black: #111;
     --white: #fff;
-    --light-color: rgb(14, 13, 13);
+    --light-color: #aaa;
     --bg-color: #222;
     --black-bg: rgba(17, 17, 17, .7);
     --border: .2rem solid $blue;
@@ -47,7 +47,27 @@ html {
 
 body {
     background: var(--black);
-    overflow: hidden;
+    overflow-x: hidden;
+}
+
+/* Header Section Button Configuration */
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color: var(--blue);
+    border-style: solid;
+    border-color: var(--blue);
+    border-radius: 5rem;
+    cursor: pointer;
+    background: none;
+}
+
+.btn:hover {
+    background: var(--blue);
+    color: var(--black)
 }
 
 /* Header Content Configuration */
@@ -63,4 +83,34 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 9%;
+}
+
+/* Navigation Bar Items Style */
+
+.navbar a {
+    font-size: 1.7rem;
+    color: var(--light-color);
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.navbar a:hover {
+    color: var(--blue);
+}
+
+.btn {
+    margin-top: 0;
+}
+
+/* Logo Content Configuration */
+
+.logo {
+    font-size: 2.5rem;
+    color: var(--white);
+    font-weight: bolder;
+}
+
+.logo i {
+    color: var(--blue);
+    padding-right: .5rem;
 }
