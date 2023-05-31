@@ -142,6 +142,7 @@ body {
     min-height: 80vh;
     align-items: center;
     justify-content: center;
+    padding-bottom: 5rem;
 }
 
 .home .content {
@@ -231,6 +232,20 @@ body {
             margin: 2rem;
             font-size: 2rem;
             display: block;
+        }
+
+    /* Media Queries For Home Section  */
+
+        .home {
+             margin-top: 10rem;
+        }
+
+        .home .content span {
+             font-size: 8vw;
+         }
+
+        .home .content h3 {
+            font-size: 8vw;
         }
 
     }
