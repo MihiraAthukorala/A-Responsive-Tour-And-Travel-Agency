@@ -173,9 +173,9 @@ body {
 /* Booking Form Section */
 
 .book-form {
-    width: 80%;
+    width: 90%;
     margin: 1rem auto;
-    margin-top: -5rem;
+    margin-top: 5rem;
     background: var(--bg-color);
     border-radius: 1rem;
     box-shadow: 0.5rem 1rem rgba(17, 17, 17, .3);
@@ -215,8 +215,63 @@ body {
     flex: 1 1 15rem;
 }
 
+/* About Section */
 
+.about {
+    display: flex;
+    gap: 7rem;
+    margin-top: 5rem;
+}
 
+.about .video-container {
+    flex-basis: 46%;
+}
+
+.about .video-container video {
+    border-radius: 2.5rem;
+    width: 95%;
+}
+
+.about .video-container .controls {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.about .video-container .controls span {
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background: var(--white);
+    cursor: pointer;
+    margin: 0.7rem;
+}
+
+.about .video-container .controls span:hover {
+    background: var(--blue);
+}
+
+.about .content {
+    flex: 54%;
+}
+
+.about .content span {
+    color: var(--blue);
+    font-size: 2rem;
+}
+
+.about .content h3 {
+    color: var(--white);
+    font-size: 4rem;
+    margin-top: 1rem;
+}
+
+.about .content p {
+    padding: 1rem 0;
+    font-size: 1.7rem;
+    color: var(--light-color);
+    line-height: 2;
+}
 
 
 
