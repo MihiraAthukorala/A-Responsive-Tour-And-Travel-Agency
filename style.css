@@ -160,9 +160,7 @@ body {
         display: inline-block;
     }
 
-    .header {
-
-        .navbar {
+    .header .navbar {
             position: absolute;
             top: 99%;
             left: 0;
@@ -171,7 +169,8 @@ body {
             clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         }
 
-        .navbar :active {
+        .header .navbar.active {
+            right: 0;
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
         }
 
@@ -182,8 +181,6 @@ body {
         }
 
     }
-
-}
 
 @media (max-width: 450px) {
     html {
