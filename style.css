@@ -21,7 +21,7 @@
     --light-color: #aaa;
     --bg-color: #222;
     --black-bg: rgba(17, 17, 17, .7);
-    --border: .2rem solid $blue;
+    --border: .2rem solid #29d9d5;
 }
 
 html {
@@ -169,6 +169,53 @@ body {
     color: var(--white);
     line-height: 2;
 }
+
+/* Booking Form Section */
+
+.book-form {
+    width: 80%;
+    margin: 1rem auto;
+    margin-top: -5rem;
+    background: var(--bg-color);
+    border-radius: 1rem;
+    box-shadow: 0.5rem 1rem rgba(17, 17, 17, .3);
+    padding: 3rem 2rem;
+}
+
+.book-form form {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.book-form form .inputBox {
+    flex: 1 1 25rem;
+}
+
+.book-form form .inputBox span {
+    font-size: 1.4rem;
+    color: var(--light-color);
+}
+
+.book-form form .inputBox input {
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    border-radius: 5rem;
+    border-style: solid;
+    border-color: var(--blue);
+    font-size: 1.6rem;
+    color: var(--light-color);
+    text-transform: none;
+    background: none;
+    margin-top: 1rem;
+}
+
+.book-form form .btn {
+    flex: 1 1 15rem;
+}
+
+
 
 
 
