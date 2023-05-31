@@ -121,3 +121,72 @@ body {
     cursor: pointer;
     display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries*/
+
+@media (max-width: 991px) {
+
+    html {
+        font-size: 55%;
+    }
+    
+    .header {
+        padding: 1.5rem 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #menu-btn {
+        display: inline-block;
+    }
+
+    .header {
+
+        .navbar {
+            position: absolute;
+            top: 99%;
+            left: 0;
+            right: 0;
+            background: var(--bg-color);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        }
+
+        .navbar :active {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        }
+
+        .navbar a {
+            margin: 2rem;
+            font-size: 2rem;
+            display: block;
+        }
+
+    }
+
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+}
