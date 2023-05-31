@@ -43,6 +43,12 @@ html {
     }
 }
 
+/* Home Section */
+
+section {
+    padding: 3rem 9%;
+}
+
 /* Body Content Configuration */
 
 body {
@@ -122,6 +128,47 @@ body {
     display: none;
 }
 
+/* Home Section Style */
+
+.home {
+    margin: 0 auto;
+    margin-top: 9rem;
+    width: 90%;
+    border-radius: 1rem;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)), url("1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    min-height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .content {
+    text-align: center;
+}
+
+.home .content span {
+    display: block;
+    font-size: 5vw;
+    font-weight: bolder;
+    -webkit-text-stroke: .2rem var(--bg-color);
+    color: transparent;
+}
+
+.home .content h3 {
+    font-size: 7vw;
+    color: var(--white);
+}
+
+.home .content p {
+    max-width: 65%;
+    margin: 1rem auto;
+    font-size: 1.6rem;
+    color: var(--white);
+    line-height: 2;
+}
+
 
 
 
@@ -152,9 +199,15 @@ body {
     .header {
         padding: 1.5rem 2rem;
     }
+
+    .section {
+        padding: 3rem 2rem;
+    }
 }
 
 @media (max-width: 768px) {
+
+    /* Media Queries For Header Section */
 
     #menu-btn {
         display: inline-block;
@@ -183,7 +236,7 @@ body {
     }
 
 @media (max-width: 450px) {
-    
+
     html {
         font-size: 50%;
     }
