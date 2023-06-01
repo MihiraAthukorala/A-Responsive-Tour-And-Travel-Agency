@@ -353,6 +353,48 @@ body {
     padding-left: 3rem;
 }
 
+.services .box-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.services .box-container .box {
+    margin: 1.4rem;
+    border: 0.2rem solid var(--blue);
+    background: var(--bg-color);
+    border-radius: 1rem;
+    padding: 3rem;
+    text-align: center;
+}
+
+.services .box-container .box:hover {
+    transform: scale(1.1); 
+}
+
+.services .box-container .box i {
+    font-size: 4rem;
+    color: var(--blue);
+    margin-bottom: 2rem;
+}
+
+.services .box-container .box h3 {
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.services .box-container .box p {
+    padding: 1rem;
+    font-size: 1.4rem;
+    color: var(--light-color);
+    line-height: 2;
+}
+
+
+
+
+
+
+
 
 
 
