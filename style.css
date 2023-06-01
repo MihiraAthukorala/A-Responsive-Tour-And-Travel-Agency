@@ -418,6 +418,67 @@ body {
     color: var(--white);
 }
 
+/* Blog Section Configuration */
+
+.blogs .box-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.blogs .box-container .box {
+    margin: 1rem;
+    border-radius: 1rem;
+    background: var(--bg-color);
+    overflow: hidden;
+}
+
+.blogs .box-container .box .image img:hover {
+    transform: scale(1.1);
+}
+
+.blogs .box-container .box .image {
+    height: 25rem;
+    overflow: hidden;
+    width: 100%;
+}
+
+.blogs .box-container .box .image img {
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogs .box-container .box .link {
+    padding: 4rem;
+    font-size: 1.8rem;
+    color: var(--light-color);
+    line-height: 1rem;
+}
+
+.blogs .box-container .box .icon {
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blogs .box-container .box p {
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1.4rem;
+    color: var(--white);
+    line-height: 1rem;
+}
+
+.blogs .box-container .box .icon a {
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: var(--blue);
+}
+
+.blogs .box-container .box .icon a:hover {
+    color: var(--white);
+}
 
 
 
