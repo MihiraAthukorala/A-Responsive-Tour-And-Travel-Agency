@@ -34,7 +34,7 @@ html {
         width: 1rem;
     }
     
-    &::-webkit-scrolbar-track {
+    &::-webkit-scrollbar-track {
         background: var(--black-bg);
     }
 
